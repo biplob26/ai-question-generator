@@ -45,7 +45,7 @@ if submit_button:
         try:
             genai.configure(api_key=api_key)
             # সঠিক আপডেট করা মডেল নাম
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            model = genai.GenerativeModel('gemini-3.6-flash')
 
             # প্রম্পট ইঞ্জিনিয়ারিং
             prompt = f"""
